@@ -16,7 +16,7 @@ body {
 }
 
 body > *:first-child {
-    background-color: #ececec;
+    background-color: #e8e8e8;
 }
 
 article {
@@ -65,6 +65,10 @@ main {
     justify-self: center;
 }
 
-ul {
+.activites {
     list-style-type: square;
+}
+
+.technos {
+    list-style-type: circle;
 }
