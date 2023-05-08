@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display:grid;
+    grid-template-columns: auto 1fr;
+}
+
+.divider {
+    border-bottom: 1px solid #000;
+    margin: 3rem 0;
+}
+
+.little-divider {
+    border-bottom: 1px dotted #000;
+    margin: 1rem 0;
+}
+
+body > *:first-child {
+    background-color: #ececec;
+}
+
+article {
+    margin-left: 1rem;
+}
+
+.side-bar {
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+.experience-precisions * {
+    padding: 0;
+    margin: 0.2rem;
+}
+
+.material-symbols-outlined {
+ font-variation-settings:
+         'FILL' 1,
+         'wght' 400,
+         'GRAD' 0,
+         'opsz' 48
+}
+
+.icon {
+    width: 1.25em;
+}
+
+.contact-list{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: auto auto auto;
+    list-style-type: none;
+    padding: 0;
+    flex-direction: row;
+    grid-gap: 0.5rem;
+}
+
+.contact-list > *:nth-child(odd) {
+    justify-self: center;
+}
+
+ul {
+    list-style-type: square;
+}
