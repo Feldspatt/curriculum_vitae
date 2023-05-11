@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     display:grid;
     grid-template-columns: auto 1fr;
+    background-color: #fafafa;
 }
 
 .divider {
@@ -16,7 +17,7 @@ body {
 }
 
 body > *:first-child {
-    background-color: #e8e8e8;
+    background-color: #f3e9dd;
 }
 
 article {
