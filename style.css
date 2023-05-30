@@ -17,7 +17,7 @@ body {
 }
 
 body > *:first-child {
-    background-color: #f3e9dd;
+    background-color: #e3e3e3;
 }
 
 article {
@@ -49,17 +49,16 @@ main {
 }
 
 .icon {
-    width: 1.25em;
+    width: 1.5em;
 }
 
 .contact-list{
     display: grid;
     grid-template-columns: max-content 1fr;
     grid-template-rows: auto auto auto;
-    list-style-type: none;
     padding: 0;
-    flex-direction: row;
     grid-gap: 0.5rem;
+    align-items: center;
 }
 
 .contact-list > *:nth-child(odd) {
